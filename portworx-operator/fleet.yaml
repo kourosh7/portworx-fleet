@@ -2,5 +2,6 @@
 defaultNamespace: portworx
 helm:
   takeOwnership: true
+  releaseName: portworx-operator
 labels:
   app: portworx-operator

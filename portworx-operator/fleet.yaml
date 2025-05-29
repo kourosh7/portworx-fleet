@@ -1,6 +1,4 @@
 # No depends On needed here, as this is the dependency target
 defaultNamespace: portworx
-deployment:
-  helm: false
 labels:
   app: portworx-operator

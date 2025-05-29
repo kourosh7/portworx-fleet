@@ -2,5 +2,5 @@ defaultNamespace: portworx
 deployment:
   helm: false
 dependsOn:
-  - name: portworx-portworx-operator
+  - name: portworx-operator
     namespace: fleet-default

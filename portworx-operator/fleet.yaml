@@ -1,5 +1,6 @@
 # No depends On needed here, as this is the dependency target
 defaultNamespace: portworx
-takeOwnership: true
+helm:
+  takeOwnership: true
 labels:
   app: portworx-operator

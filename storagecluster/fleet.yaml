@@ -1,6 +1,5 @@
 defaultNamespace: portworx
-deployment:
-  helm: false
 dependsOn:
-  - name: portworx-operator
-    namespace: fleet-default
+  - selector:
+      matchLabels:
+        app: portworx-operator
